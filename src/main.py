@@ -4,7 +4,10 @@ import opponent
 import pyjokes
 
 
-
+#   Make sure your are in /src in your terminal
+#   This is the the main function fro the app.
+#   Please to start the app run _python3 main.py_ script
+#   Before run the script make sure you are in a virtual enviroment and have pyjokes installed 
 #   To install a Virtual Enviroment type:   "python3 -m venv .venv"
 #   To activate: "source .venv/bin/activate"
 #   To deactivate type ""deactivate"
