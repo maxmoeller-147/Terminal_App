@@ -1,4 +1,7 @@
+import json
+import random
 import opponent
+import csv
 
 
 
@@ -37,6 +40,9 @@ if __name__ == "__main__":
 
 
 
+
+#   Function to display the decklist from a json file into the app.
+
 def show_complete_decklist():
      with open('decklist.json','r') as f:
         cards = json.load(f)
@@ -51,6 +57,8 @@ if __name__ == "__main__":
 
 
 
+
+#   Function that grabs 4 random cards of the decklist.
 
 def draw_hand_from_decklist(num_cards=4):
     with open("decklist.json", "r") as f:
