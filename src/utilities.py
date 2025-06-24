@@ -70,3 +70,13 @@ def draw_hand_from_decklist(num_cards=4):
 if __name__ == "__main__":
 
     draw_hand_from_decklist()
+
+
+
+
+class LifeCalculator:
+    def __init__(self):
+        self.life = 40
+        self.min_life = 0
+        self.max_life = 40
+    
