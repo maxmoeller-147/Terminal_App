@@ -5,10 +5,13 @@ import pyjokes
 
 
 
+#   To install a Virtual Enviroment type:   "python3 -m venv .venv"
+#   To activate: "source .venv/bin/activate"
+#   To deactivate type ""deactivate"
+#   To see if you have pyjokes installed type "pip list"
+#   If not installed type "pip install -r requirements.txt"
 
-
-
-
+#   YOU ARE READY TO RUN THE APP. HAVE FUN!   #
 
 
 
