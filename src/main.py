@@ -24,7 +24,7 @@ def main():
 
         
         print(
-            "\n\n1. Try Drawing a Random Hand\n2. Change Deck\n3. Get away from the Battle\n""4. Initial Decklist\n6. Quit\n\n"
+            "\n\n1. Try Drawing a Random Hand\n2. Change Deck\n3. Get away from the Battle\n""4. Initial Decklist\n5. Life Calculator\n6. Quit\n\n"
             )
         print("--"*50)
         choice = input ("Choose an Option:")
