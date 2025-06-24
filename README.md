@@ -65,6 +65,9 @@ All third-party libraries are used in compliance with their respective licenses.
 4. Initial Decklist:
     It Gives the original an initial deck. The Base.
 
-5. Quit:
+5. Life Calculator:
+    Function to open a new app that calculates hero life within the original app.
+    
+6. Quit:
     Terminate the execution of the App
 

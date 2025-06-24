@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 
 
-
+#   Function to open a new app that calculates hero life within the original app
 
 def calculator_of_hero_life():
     class LifeCalculator:
