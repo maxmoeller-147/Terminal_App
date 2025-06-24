@@ -2,7 +2,7 @@ import opponent
 
 
 
-
+#   Flow Control Estructure with classes that inherents from the class Hero.
 
 def select_hero_opponent():
 
