@@ -46,3 +46,19 @@ def show_complete_decklist():
 if __name__ == "__main__":
 
     show_complete_decklist()
+
+
+
+
+
+
+def draw_hand_from_decklist(num_cards=4):
+    with open("decklist.json", "r") as f:
+        decklist = json.load(f)
+        random_hand = random.sample(list(decklist.keys()), num_cards)
+    for card in random_hand:
+        print(card)
+
+if __name__ == "__main__":
+
+    draw_hand_from_decklist()
