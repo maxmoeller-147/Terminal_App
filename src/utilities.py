@@ -90,3 +90,22 @@ class LifeCalculator:
         elif self.life < self.min_life:
             self.life = self.min_life
         self.show_life()
+
+    def start(self):
+        print("Life Calculator (minimum 0, maximum 40)")
+        self.show_life()
+        while True:
+            try:
+                user_input = input("Enter amount to modify (e.g., +5 or -3), or type 'exit' to quit: ")
+                if user_input.lower() == 'exit':
+                    print("Exiting...")
+                    break
+                amount = int(user_input)
+                self.modify_life(amount)
+            except ValueError:
+                print("Invalid input. Use numbers like +3 or -2, or type 'exit' to quit.")
+
+# Run
+if __name__ == "__main__":
+    game = LifeCalculator()
+    game.start()
