@@ -11,6 +11,9 @@ class Hero:
 
 
 
+#   Class that inherets attributes from Hero.
+#   Change_deck creates a csv file with a new decklist if user chooses yes.
+
 class Warrior(Hero):
     def __init__(self, name, playstyle):
         super().__init__(name)
@@ -77,6 +80,12 @@ if __name__ == "__main__":
 
 
 
+
+
+
+#   Class that inherets attributes from Hero.
+#   Change_deck creates a csv file with a new decklist if user chooses yes.
+
 class Guardian(Hero):
     def __init__(self, name, playstyle):
         super().__init__(name)
@@ -142,6 +151,11 @@ if __name__ == "__main__":
 
 
 
+
+
+
+#   Class that inherets attributes from Hero.
+#   Change_deck creates a csv file with a new decklist if user chooses yes.
 
 class Wizard(Hero):
     def __init__(self, name, playstyle):
