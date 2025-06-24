@@ -80,3 +80,13 @@ class LifeCalculator:
         self.min_life = 0
         self.max_life = 40
     
+    def show_life(self):
+        print(f"Current life: {self.life}")
+
+    def modify_life(self, amount):
+        self.life += amount
+        if self.life > self.max_life:
+            self.life = self.max_life
+        elif self.life < self.min_life:
+            self.life = self.min_life
+        self.show_life()
