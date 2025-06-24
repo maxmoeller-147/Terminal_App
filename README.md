@@ -45,3 +45,24 @@ All third-party libraries are used in compliance with their respective licenses.
 4. Run the application:
 
     python src/main.py
+
+
+
+
+### How to Use
+
+1. Try Drawing a Hand of Cards: 
+    This option will give you a random hand of 4 cards. Good Luck!
+
+2. Change Deck: 
+    It will give you three classes of heroes, when you choose the one you are going against, it will give you the option of changing your deck, if you choose "Yes", it will display a new deck list best suited to play against the class choosen.
+
+3. Run away from the Battle:
+    It just tells you a joke...
+
+4. Initial Decklist:
+    It Gives the original an initial deck. The Base.
+
+5. Quit:
+    Terminate the execution of the App
+
