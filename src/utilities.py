@@ -32,3 +32,17 @@ def select_hero_opponent():
 
 if __name__ == "__main__":
     select_hero_opponent()
+
+
+
+
+
+def show_complete_decklist():
+     with open('decklist.json','r') as f:
+        cards = json.load(f)
+     for card, quantity in cards.items():
+        print(f"{quantity}x {card}")
+
+if __name__ == "__main__":
+
+    show_complete_decklist()
