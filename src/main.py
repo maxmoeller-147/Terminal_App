@@ -24,7 +24,7 @@ def main():
 
         
         print(
-            "\n\n1. Try Drawing a Random Hand\n2. Change Deck\n3. Get away from the Battle\n""4. Initial Decklist\n5. Quit\n\n"
+            "\n\n1. Try Drawing a Random Hand\n2. Change Deck\n3. Get away from the Battle\n""4. Initial Decklist\n6. Quit\n\n"
             )
         print("--"*50)
         choice = input ("Choose an Option:")
@@ -41,6 +41,8 @@ def main():
             case "4":
                 utilities.show_complete_decklist()
             case "5":
+                utilities.calculator_of_hero_life()
+            case "6":
                 print("Goodbye!")
                 break
             case _: 
